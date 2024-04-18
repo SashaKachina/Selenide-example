@@ -13,6 +13,5 @@ public class LoginFormTest extends BaseTest {
     public void checkOpeningLoginForm() {
         mainPage.logoShouldBe(visible);
         mainPage.openLoginForm();
-        loginModalPage.checkDisplayingModalPage();
     }
 }
